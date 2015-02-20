@@ -3,6 +3,7 @@
 # This is my global Python setup for Mac OS X
 # Assuming that Command Line Tools and Homebrew have been installed
 
+# Install Python
 brew install python
 
 # Always use virtualenv and virtualenvwrapper
