@@ -19,7 +19,8 @@ pip install numpy scipy matplotlib pandas nltk
 
 # Install IPython dependencies
 brew install zeromq
-pip install jinja2 tornado pyzmq
+pip install jinja2 sphinx pyzmq pygments tornado nose readline
+# Alternative: pip install ipython[all]
 
 # Install IPython
 pip install ipython
