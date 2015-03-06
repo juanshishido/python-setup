@@ -27,3 +27,6 @@ pip install ipython
 
 # Install Scikit-Learn
 pip install scikit-learn
+
+# Additional visualization libraries
+pip install seaborn plotly
