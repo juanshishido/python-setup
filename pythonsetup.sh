@@ -17,16 +17,17 @@ brew install libxml2
 # Python scientific stack (less IPython)
 pip install numpy scipy matplotlib pandas nltk
 
-# Install IPython dependencies
-brew install zeromq
-pip install jinja2 sphinx pyzmq pygments tornado nose readline
-# Alternative: pip install ipython[all]
-
 # Install IPython
-pip install ipython
+pip install ipython[all]
 
 # Install Scikit-Learn
 pip install scikit-learn
 
+# Install statsmodels
+pip install statsmodels
+
 # Additional visualization libraries
-pip install seaborn plotly
+pip install seaborn ggplot
+
+# Querying DataFrames using SQL syntax
+pip install pandasql
